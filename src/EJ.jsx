@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import Logo from '../public/EJ_logo.png'
 
 function Ej () {
     return(
@@ -6,7 +7,7 @@ function Ej () {
             <section className="ej-section">
                 <div className="ej">
                     <div className="logo-ej">
-                        <img src="./public/EJ_logo.png" className="ej-logo" />
+                        <img src={Logo} className="ej-logo" />
                     </div>
                     <h3 className="ej-text">Bem vindo(a) a EJ Commerce!</h3>
                     <p className="ej-text1">A melhor revendedora de dispositivos Apple do mercado!</p>
