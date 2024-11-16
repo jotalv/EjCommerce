@@ -1,0 +1,486 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+}
+
+.center {
+  margin: auto;
+  justify-content: center;
+  position: center;
+}
+
+.center-padding {
+  padding-left: 1rem;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(119, 116, 116, 0.562) !important;
+  background-color: rgba(119, 116, 116, 0.562) !important;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.home {
+  background-color: black;
+  min-height: 90vh;
+}
+
+.iphone16 {
+  border-bottom: 0.7rem solid #fafafa;
+}
+
+.iphone161 {
+  border: transparent
+}
+
+.iphone1 {
+  background-image: url('../public/Iphone16pro.png'); /* Imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra toda a seção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat;
+  height: 90vh; /* Define a altura da seção como 100% da altura da tela */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: flex-end; /* Centraliza o conteúdo verticalmente */
+  position: relative;
+  border-bottom: 7px solid #fafafa;
+}
+
+.iphone2 {
+  background-image: url("../public/iphoneazul.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 76vh;
+  background-position: center center;
+  border-bottom: 7px solid #fafafa;
+}
+
+.macbook {
+  background-image: url("../public/macbookpro.png");
+  background-size: cover;
+  min-height: 70vh;
+  background-position: center center;
+}
+
+.botao {
+  border-radius: 90px;
+  display: flex;
+}
+
+.botoes {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.botao1 {
+  margin-left: 2%;
+  border-radius: 3.2rem;
+  font-size: 1rem;
+  padding: 0.8rem 2rem; 
+  margin-top: -10%
+}
+
+.saiba-mais-btn {
+  border-radius: 3.2rem;
+  font-size: 1rem;
+  padding: 0.8rem 2rem; /* Ajuste o padding conforme necessário */
+  margin-top: -10%; /* Move o botão 20px para cima */
+}
+
+.botao3 {
+  margin-left: 2%;
+  border-radius: 3.2rem;
+  font-size: 1rem;
+  padding: 0.8rem 2rem; 
+  margin-top: 10%
+}
+
+.saiba-mais-btn1 {
+  border-radius: 3.2rem;
+  font-size: 1rem;
+  padding: 0.8rem 2rem; /* Ajuste o padding conforme necessário */
+  margin-top: 10%; /* Move o botão 20px para cima */
+}
+
+@media (max-width: 768px) {
+  .saiba-mais-btn {
+    font-size: 0.9rem; 
+    padding: 0.6rem 1.5rem; 
+    margin-top: -50%; 
+  }
+
+  .botao1 {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+    margin-top: -50%;
+  }
+}
+
+.saiba-mais-btn1 {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+  transform: translateY(1500%);
+  padding: 0.8rem 2rem;
+}
+
+.botao3 {
+  transform: translateY(1500%);
+}
+
+.texto {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 10%;
+}
+
+.texto1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 3%;
+}
+
+@media (max-width: 768px) {
+  .texto1 {
+    padding-top: 15%;
+  }
+}
+
+.cart-section {
+  min-height: 88.3vh;
+  background-color: #070707;
+}
+
+.login-teste {
+  /* border: 3px solid red; */
+  width: 40%;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  min-height: 92vh;
+}
+
+@media (max-width: 768px) {
+  .login-teste {
+    width: 100%;
+    padding-top: 10%;
+    min-height: 91.1vh;
+  }
+}
+
+.login-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #fafafa;
+  font-size: 4rem;
+  padding-top: 15%;
+}
+
+.sessenta {
+  width: 60%;
+  height: 92vh;
+  background-image: url('../public/ceu-login.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .sessenta{
+    width: 0;
+    background-color: rgb(7, 7, 7);
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.login-input {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  border-style: none;
+  background-color: rgb(39 39 42);
+  color: #fafafa;
+}
+
+.login-btn {
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  border-style: none;
+  background-color: slategrey;
+  color: #fafafa;
+  font-size: large;
+  transition: 0.4s;
+}
+
+.login-btn:hover {
+  background-color: rgb(39 39 42);
+}
+
+.esquece-senha {
+  text-decoration: none;
+  color: #ccc;
+  font-size: .8rem;
+  padding-left: 50%;
+  cursor: pointer;
+}
+
+.nao-tem-conta {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-top: 3%;
+}
+
+.quem-somos-section {
+  min-height: 90vh;
+  background-color: #fafafa;
+}
+
+.quem-somos {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  justify-content: center;
+  text-align: center;
+  background-color: #070707;
+  color: #fafafa;
+}
+
+.content-quem-somos {
+  background-color: #fafafa;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.texto-azul {
+  color: dodgerblue;
+  width: 30%;
+  padding-left: 3%;
+  padding-top: 5%;
+}
+
+.ej-section {
+  min-height: 93vh;
+  background-color: #070707;
+  color: #fafafa;
+}
+
+.ej-logo {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 45%;
+}
+
+@media (max-width: 768px) {
+  .ej-logo {
+    padding-left: 25%;
+  }
+
+  .ej {
+    width: 100%;
+    padding-top: 30%;
+  }
+
+  .ej-section {
+    min-height: 91.1vh;
+  }
+}
+
+.ej-text {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.ej-text1 {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.debug {
+  border: 2px solid red;
+}
+
+.debug-green {
+  border: 2px solid green;
+}
+
+.ej-botao1 {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.ej-botoes {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.suporte-section {
+  height: 93vh;
+  background-color: #070707;
+  color: #fafafa;
+}
+
+.suporte-itens {
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.redes {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: #070707;
+}
+
+@media (max-width: 768px) {
+  .redes {
+    padding-top: 25%;
+    font-size: .8rem;
+  }
+
+  .suporte-title {
+    padding-top: 15%;
+  }
+
+  .text-logo {
+    font-size: 1rem;
+  }
+
+  .insta {
+    font-size: 2rem;
+  }
+
+}
+
+.politica-de-privacidade {
+  min-height: 95vh;
+  background-color: #070707;
+}
+
+.text {
+  color: #fafafa;
+  text-align: center;
+  /* border: 1px solid red; */
+  padding-top: 3%;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .text {
+    padding-top: 10%;
+  }
+
+  .botao3 {
+    margin-top: 7%;
+  }
+
+  .saiba-mais-btn1 {
+    margin-top: 7%;
+  }
+
+  .footer {
+    font-size: .8rem;
+    padding-top: 6%;
+  }
+
+}
+
+.logo-ej {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.insta {
+  font-size: 3rem;
+  padding-right: 1%;
+}
+
+.text-logo {
+  font-size: 2rem;
+}
+
+.quem-somos-content {
+  width: 75%;
+  justify-content: center;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.quem-somos-titles {
+  color: dodgerblue;
+  padding-top: 3%;
+  font-size: 2rem;
+}
+
+.content-politica-privacidade {
+  width: 75%;
+  margin: auto;
+  color: #fafafa;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.politica-title {
+  color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.footer {
+  height: 6rem;
+  background-color: #212529;
+  color: #fafafa;
+}
+
+.copy {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.cep {
+  padding-top: 5%;
+  height: 92vh;
+}
+
+.carrinho {
+  color: #fafafa;
+  text-align: center;
+  padding-top: 10%;
+}
