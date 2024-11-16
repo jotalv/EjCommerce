@@ -150,10 +150,14 @@
   .texto1 {
     padding-top: 15%;
   }
+
+  .cart-section {
+    padding-bottom: 30%;
+  }
 }
 
 .cart-section {
-  min-height: 88.3vh;
+  min-height: 93vh;
   background-color: #070707;
 }
 
@@ -296,14 +300,10 @@
   margin: auto;
   justify-content: center;
   text-align: center;
-  padding-top: 5%;
-  padding-left: 45%;
+  padding-top: 10%;
 }
 
 @media (max-width: 768px) {
-  .ej-logo {
-    padding-left: 25%;
-  }
 
   .ej {
     width: 100%;
@@ -311,7 +311,7 @@
   }
 
   .ej-section {
-    min-height: 91.1vh;
+    min-height: 93vh;
   }
 }
 
@@ -398,6 +398,7 @@
   /* border: 1px solid red; */
   padding-top: 3%;
   font-size: 2rem;
+  
 }
 
 @media (max-width: 768px) {
@@ -424,6 +425,8 @@
   width: 100%;
   margin: auto;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .insta {
